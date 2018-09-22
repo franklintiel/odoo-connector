@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="odoo_connector",
-    version="1.0.0",
+    version="1.0.1",
     author="Franklin Sarmiento",
     author_email="franklinitiel@gmail.com",
     description="This is a library that allow an easy and friendly connection with an Odoo ERP instance on Pyhton 2.x",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://franklintiel.github.io/odoo-connector/",
+    url="https://github.com/franklintiel/odoo-connector/wiki",
     license="MIT",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -20,7 +20,7 @@ setuptools.setup(
     ],
     keywords="odoo connector connect interface connection odoo_connection odoo_connect odoo_connector odoo_interface odoo_protocol",
     project_urls={
-        'Documentation': "https://franklintiel.github.io/odoo-connector/",
+        'Documentation': "https://github.com/franklintiel/odoo-connector/",
         'Source': "https://github.com/franklintiel/odoo-connector",
         'Tracker': "https://github.com/franklintiel/odoo-connector/issues"
     },
