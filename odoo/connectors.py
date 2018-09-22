@@ -1,9 +1,9 @@
-from .interfaces import OdooInterface
+from .protocols import OdooProtocol
 import xmlrpclib
 import json
 
 
-class OdooConnector(OdooInterface):
+class OdooConnector(OdooProtocol):
     username = None
     password = None
     endpoint = None

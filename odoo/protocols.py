@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod, abstractproperty
 
 
-class OdooInterface():
+class OdooProtocol():
     __metaclass__ = ABCMeta
 
     def set_link_type(self, value):
