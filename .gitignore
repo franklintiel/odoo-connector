@@ -1,3 +1,7 @@
 *.pyc
 .python-version
 .idea
+dist/
+build/
+odoo_connector.egg-info/
+tips.txt
