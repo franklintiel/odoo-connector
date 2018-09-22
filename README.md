@@ -71,12 +71,3 @@ result = odoo.search(
 
 The search and write methods were tested with all methods allowed on the External API Documentation from Odoo website
 and the write() and search() methods can work with any methods from any models existing on Odoo instance
-
-### To test any methods using unittest
-
-- Download or clone this repository
-- Edit the attributes from the DummieData class (find this class on tests/unittests.py)
-- run the follow command on the root directory.
-```shell
-$ python -m unittest -v tests/unittest.py
-```
