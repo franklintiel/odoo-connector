@@ -20,7 +20,7 @@ class OdooConnector(OdooProtocol):
         connection = None
         url = '{0}/xmlrpc/2/{1}'.format(self.endpoint, link_type)
         try:
-            connection = xmlrpclib.ServerProxy(url, allow_none=1, encoding='utf8')
+            connection = xmlrpclib.ServerProxy(url, allow_none=1, encoding='utf-8')
         except xmlrpclib.Error as error:
             raise error
         except Exception as error:
