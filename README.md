@@ -75,5 +75,5 @@ and the write() and search() methods can work with any methods from any models e
 ## Releases notes:
 
 - 1.0.0: Initial and stable version connection.
-- 1.0.1: Readme.MD file updated.
+- 1.0.1: README.md file updated.
 - 1.0.2: Bugs fixed related with the encodings on the ServerProxy connection.
