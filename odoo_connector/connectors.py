@@ -1,4 +1,4 @@
-from .protocols import OdooProtocol
+from odoo_connector.protocols import OdooProtocol
 import xmlrpclib
 import json
 
